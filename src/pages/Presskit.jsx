@@ -31,7 +31,7 @@ const Presskit = () => {
         descripcion='Info de la api'
       />
 
-      <SocialBox
+      {/* <SocialBox
         Icon={faLinkedinIn}
         Red='Linkedin'
         Nombre='Info de api'
@@ -54,7 +54,7 @@ const Presskit = () => {
         Red='Instagram'
         Nombre='Info de api'
         Apodo='Info de api'
-      />
+      /> */}
 
       <div>
         <button
