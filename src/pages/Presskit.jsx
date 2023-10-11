@@ -5,7 +5,7 @@ import photo from '../assets/Logo_160x160.png'
 import { faLinkedinIn, faYoutube, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 import InfoBox from '../components/PresskitComponents/InfoBox'
-import SocialBox from '../components/PresskitComponents/SocialBOX'
+import SocialBox from '../components/PresskitComponents/SocialBOX.jsx'
 
 const Presskit = () => {
   return (
@@ -31,7 +31,7 @@ const Presskit = () => {
         descripcion='Info de la api'
       />
 
-      {/* <SocialBox
+     <SocialBox
         Icon={faLinkedinIn}
         Red='Linkedin'
         Nombre='Info de api'
@@ -54,7 +54,7 @@ const Presskit = () => {
         Red='Instagram'
         Nombre='Info de api'
         Apodo='Info de api'
-      /> */}
+      /> 
 
       <div>
         <button
